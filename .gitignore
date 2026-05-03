@@ -22,3 +22,9 @@ yarn-error.log*
 # OS
 .DS_Store
 Thumbs.db
+
+# Agent files
+AGENTS.md
+CLAUDE.md
+**/AGENTS.md
+**/CLAUDE.md
