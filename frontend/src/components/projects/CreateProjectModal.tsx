@@ -54,7 +54,7 @@ const projectSchema = z.object({
   visibility: z.enum(["Private", "Team"]).default("Team"),
 });
 
-type ProjectFormValues = z.infer<typeof projectSchema>;
+type ProjectFormValues = z.input<typeof projectSchema>;
 
 interface CreateProjectModalProps {
   open: boolean;
