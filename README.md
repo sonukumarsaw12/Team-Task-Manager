@@ -13,7 +13,9 @@
 
 | Desktop Dashboard | Kanban Board |
 | :---: | :---: |
-| ![Dashboard Screenshot](https://via.placeholder.com/800x450?text=Premium+Dashboard+Preview) | ![Kanban Screenshot](https://via.placeholder.com/800x450?text=Interactive+Kanban+Preview) |
+| ![Dashboard Screenshot](<img width="2867" height="1628" alt="Screenshot 2026-05-03 170227" src="https://github.com/user-attachments/assets/0b5c1572-7d62-45c6-8cf9-b8b879ff9090" />
+) | ![Kanban Screenshot](<img width="2879" height="1618" alt="Screenshot 2026-05-03 170218" src="https://github.com/user-attachments/assets/ee3a6d45-fb6d-4664-ace6-bb65b0d39f81" />
+) |
 
 *(Note: Add your actual screenshots in the `docs/assets` folder and update these links!)*
 
@@ -133,23 +135,11 @@ Recommended: **Railway** or **Vercel**.
 
 ---
 
-## 🤝 Contribution & Support
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git pull origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
 ## 📝 License
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
 <p align="center">
-  Built with ❤️ for Teams everywhere.
+  Built By Sonu Kumar Saw with ❤️ .
 </p>
