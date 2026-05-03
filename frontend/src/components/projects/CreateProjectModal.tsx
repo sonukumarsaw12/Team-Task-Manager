@@ -88,7 +88,7 @@ export default function CreateProjectModal({ open, onOpenChange, onSuccess, proj
     watch,
     setValue,
     formState: { errors, isValid, isSubmitting },
-  } = useForm<ProjectFormValues>({
+  } = useForm({
     resolver: zodResolver(projectSchema),
     defaultValues: {
       name: project?.name || "",
@@ -187,7 +187,7 @@ export default function CreateProjectModal({ open, onOpenChange, onSuccess, proj
                 <div className="flex-1 space-y-3">
                   <div className="flex flex-wrap gap-2">
                     <Popover>
-                      <PopoverTrigger asChild>
+                      <PopoverTrigger>
                         <Button type="button" variant="outline" size="sm" className="h-8 gap-2 border-dashed">
                           <Smile className="h-4 w-4" /> Pick Icon
                         </Button>
@@ -212,7 +212,7 @@ export default function CreateProjectModal({ open, onOpenChange, onSuccess, proj
                     </Popover>
 
                     <Popover>
-                      <PopoverTrigger asChild>
+                      <PopoverTrigger>
                         <Button type="button" variant="outline" size="sm" className="h-8 gap-2 border-dashed">
                           <Palette className="h-4 w-4" /> Custom Color
                         </Button>
@@ -279,7 +279,7 @@ export default function CreateProjectModal({ open, onOpenChange, onSuccess, proj
                     render={({ field }) => (
                       <MultiSelect
                         options={users}
-                        selected={field.value}
+                        selected={field.value || []}
                         onChange={field.onChange}
                         placeholder="Select members..."
                       />
@@ -368,7 +368,7 @@ export default function CreateProjectModal({ open, onOpenChange, onSuccess, proj
                     control={control}
                     render={({ field }) => (
                       <Popover>
-                        <PopoverTrigger asChild>
+                        <PopoverTrigger>
                            <Button
                             type="button"
                             variant="outline"
