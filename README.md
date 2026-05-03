@@ -10,11 +10,15 @@
 ---
 
 ## 📸 Visual Preview
-(<img width="2867" height="1628" alt="Screenshot 2026-05-03 170227" src="https://github.com/user-attachments/assets/0b5c1572-7d62-45c6-8cf9-b8b879ff9090" />
-(<img width="2879" height="1618" alt="Screenshot 2026-05-03 170218" src="https://github.com/user-attachments/assets/ee3a6d45-fb6d-4664-ace6-bb65b0d39f81" />
-)
+<img width="2879" height="1629" alt="Screenshot 2026-05-03 170833" src="https://github.com/user-attachments/assets/059d4621-2163-45af-a61c-429b24c5ed88" />
 
-*(Note: Add your actual screenshots in the `docs/assets` folder and update these links!)*
+<img width="2879" height="1618" alt="Screenshot 2026-05-03 170218" src="https://github.com/user-attachments/assets/ee3a6d45-fb6d-4664-ace6-bb65b0d39f81" />
+
+<img width="2867" height="1628" alt="Screenshot 2026-05-03 170227" src="https://github.com/user-attachments/assets/0b5c1572-7d62-45c6-8cf9-b8b879ff9090" />
+
+<img width="2879" height="1624" alt="Screenshot 2026-05-03 170750" src="https://github.com/user-attachments/assets/93a354fa-977e-4abe-bafd-40a9e122ab45" />
+
+<img width="2878" height="1604" alt="Screenshot 2026-05-03 170800" src="https://github.com/user-attachments/assets/8221f1bf-53ed-4e81-b3b7-a450ecc98f71" />
 
 ---
 
