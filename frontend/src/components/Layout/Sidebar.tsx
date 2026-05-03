@@ -3,13 +3,13 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useAuth } from "@/context/AuthContext";
-import { 
-  LayoutDashboard, 
-  FolderKanban, 
-  Activity, 
-  User, 
-  LogOut, 
-  Zap 
+import {
+  LayoutDashboard,
+  FolderKanban,
+  Activity,
+  User,
+  LogOut,
+  Zap
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -75,16 +75,15 @@ export default function Sidebar({ mobile }: SidebarProps) {
               className="relative group block"
             >
               <div
-                className={`flex items-center space-x-3 rounded-xl px-4 py-3 text-sm font-medium transition-all duration-300 ${
-                  route.active
+                className={`flex items-center space-x-3 rounded-xl px-4 py-3 text-sm font-medium transition-all duration-300 ${route.active
                     ? "text-primary bg-primary/10 shadow-[0_0_15px_rgba(59,130,246,0.1)]"
                     : "text-muted-foreground hover:text-foreground hover:bg-foreground/5"
-                }`}
+                  }`}
               >
                 <route.icon className={`h-5 w-5 transition-transform duration-300 group-hover:scale-110 ${route.active ? "text-primary" : "text-muted-foreground"}`} />
                 <span>{route.label}</span>
                 {route.active && (
-                  <motion.div 
+                  <motion.div
                     layoutId="active-pill"
                     className="absolute left-0 w-1 h-6 bg-primary rounded-r-full"
                     transition={{ type: "spring", stiffness: 300, damping: 30 }}
@@ -111,9 +110,9 @@ export default function Sidebar({ mobile }: SidebarProps) {
             <p className="truncate text-xs text-muted-foreground mt-1 capitalize">{user.role}</p>
           </div>
         </div>
-        
-        <Button 
-          variant="ghost" 
+
+        <Button
+          variant="ghost"
           className="w-full justify-start text-red-400 hover:text-red-300 hover:bg-red-500/10 rounded-xl px-4 h-11"
           onClick={logout}
         >

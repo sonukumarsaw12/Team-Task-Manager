@@ -6,7 +6,7 @@ import { AuthProvider } from "@/context/AuthContext";
 import { SocketProvider } from "@/context/SocketContext";
 import { Toaster } from "@/components/ui/sonner";
 
-const jakarta = Plus_Jakarta_Sans({ 
+const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   variable: "--font-jakarta",
 });
@@ -19,6 +19,9 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "TaskFlow - Team Collaboration",
   description: "Team Collaboration & Workflow Manager",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
