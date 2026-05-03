@@ -10,12 +10,9 @@
 ---
 
 ## 📸 Visual Preview
-
-| Desktop Dashboard | Kanban Board |
-| :---: | :---: |
-| (<img width="2867" height="1628" alt="Screenshot 2026-05-03 170227" src="https://github.com/user-attachments/assets/0b5c1572-7d62-45c6-8cf9-b8b879ff9090" />
-) (<img width="2879" height="1618" alt="Screenshot 2026-05-03 170218" src="https://github.com/user-attachments/assets/ee3a6d45-fb6d-4664-ace6-bb65b0d39f81" />
-) |
+(<img width="2867" height="1628" alt="Screenshot 2026-05-03 170227" src="https://github.com/user-attachments/assets/0b5c1572-7d62-45c6-8cf9-b8b879ff9090" />
+(<img width="2879" height="1618" alt="Screenshot 2026-05-03 170218" src="https://github.com/user-attachments/assets/ee3a6d45-fb6d-4664-ace6-bb65b0d39f81" />
+)
 
 *(Note: Add your actual screenshots in the `docs/assets` folder and update these links!)*
 
